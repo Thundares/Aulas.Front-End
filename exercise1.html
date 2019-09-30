@@ -57,12 +57,21 @@
 
             .box
             {
-                display: inline;
+                display: inline-block;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 32px;
-                margin: auto;
-                padding: auto;
+                width: 30%;
+                padding-bottom: 1%;
                 text-align: justify;
+                box-sizing: border-box;
+                background-color: rgba(0,0,0, 0.8);
+                margin-left: 2%;
+                margin-top:10px;
+            }
+
+            .box img
+            {
+                width: 100%;
             }
 
             main
@@ -71,7 +80,17 @@
                 background-color: #fff;
                 width: 1000px;
                 margin: auto;
-                height: 300px;
+                height: auto;
+            }
+
+            footer
+            {
+                margin-top: 60px;
+                height: 200px;
+                padding: 20px;
+                box-sizing: border-box;
+                width: 100%;
+                background-color: rgba(200,200,200, 0.8)
             }
         </style>
 
@@ -96,16 +115,31 @@
             <section>
                 <div class="box">
                     <img src="img/01.jpg" alt="" height="300" width="300">
-
+                    teste
                 </div>
                 <div class="box">
                     <img src="img/02.jpg" alt="" height="300" width="300">
-
+                    outro
                     </div>
                 <div class="box">
                     <img src="img/03.jpg" alt="" height="300" width="300">
+                    mais um
                 </div>
             </section>
         </main>
+        <footer>
+            <h3>
+                ALoha Flis aurum verta
+            </h3>
+            <p>
+                Iffi kannt schwoulg naj tumm
+            </p>
+            <p>
+                Lubris prantus ignus
+            </p>
+            <p>
+                @irus 2019
+            </p>
+        </footer>
     </body>
 </html>
